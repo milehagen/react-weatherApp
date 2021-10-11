@@ -8,10 +8,12 @@ function App() {
   return (
     <div>
      <div class="clearfix">
+
        <form class="float-left">
-         <input type="text" placeholder="Enter a city" autocomplete="off" value="oslo"/>
+         <input type="text" placeholder="Enter a city" autocomplete="off" value="Enter a city..."/>
            <input type="submit" class="btn btn-primary" value="Search"/>
              </form>
+
              <button class="float-left btn btn-success">Current</button>
              </div>
              <div class="weather-summary">
