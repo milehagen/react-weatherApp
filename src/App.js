@@ -3,9 +3,7 @@ import WeatherIcon from 'react-icons-weather';
 
 
 function App() {
-    <div>
-      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
-    </div>
+
   
   return (
     <div>
@@ -21,9 +19,13 @@ function App() {
                  <h1>Oslo</h1>
                  <div class="weather-detail__text">Monday 15:33</div>
                  <div class="weather-detail__text">Clouds</div>
-                 </div><div class="row"><div class="col-sm-6">
-                   <div class="clearfix"><div class="float-left weather-icon">
-                     <canvas width="38" height="38"></canvas>
+                 </div><div class="row">
+                   <div class="col-sm-6">
+                   <div class="clearfix">
+                     <div class="float-left weather-icon">
+                         <div>
+      <WeatherIcon className="weatherIconDay" name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
                      </div>
                      <div class="weather-temp weather-temp--today">15</div>
                      <div class="weather-unit__text weather-unit__text--today">°C</div>
@@ -39,36 +41,44 @@ function App() {
       <div class="col-sm-2">
         <div class="forecast-day">Tue</div>
         <div class="forecast-icon">
-          <canvas width="38" height="38"></canvas>
+              <div>
+      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
           </div>
         <div class="forecast-temperature">11°</div>
         </div>
         <div class="col-sm-2">
           <div class="forecast-day">Wed</div>
         <div class="forecast-icon">
-          <canvas width="38" height="38">
-            </canvas>
+              <div>
+      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
             </div>
             <div class="forecast-temperature">10°</div>
         </div>
         <div class="col-sm-2">
           <div class="forecast-day">Thu</div>
           < div class="forecast-icon"> 
-          <canvas width="38" height="38">
-            </canvas>
+              <div>
+      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
             </div>
             <div class="forecast-temperature">14°</div>
             </div>
             <div class="col-sm-2">
               <div class="forecast-day">Fri</div>
               <div class="forecast-icon">
-                <canvas width="38" height="38"></canvas>
+                   <div>
+      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
                 </div><div class="forecast-temperature">12°</div>
                 </div>
                 <div class="col-sm-2">
                   <div class="forecast-day">Sat</div>
                   <div class="forecast-icon">
-                    <canvas width="38" height="38"></canvas>
+                       <div>
+      <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+    </div>
                     </div>
         <div class="forecast-temperature">17°</div>
         </div>
