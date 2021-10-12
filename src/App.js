@@ -29,7 +29,6 @@ function App() {
     </div>
                      </div>
                      <div class="weather-temp weather-temp--today">15°C</div>
-   
                      </div>
                      </div>
                      <div class="col-sm-6">
@@ -38,6 +37,7 @@ function App() {
                        </div>
                        </div>
                        </div>
+                       <br/>
     <div class="row">
       <div class="col-sm-2">
         <div class="forecast-day">Tue</div>
