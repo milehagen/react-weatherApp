@@ -13,7 +13,7 @@ code {
 }
 
 .weather-container {
-  min-width: min-content;
+  min-width: max-content;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
   margin: 20px 0;
   max-width: 630px;
