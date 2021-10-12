@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
      <div class="clearfix">
-
        <form class="float-left">
          <input type="text" placeholder="Enter a city" autocomplete="off" value="Enter a city..."/>
            <input type="submit" class="btn btn-primary" value="Search"/>
@@ -29,8 +28,8 @@ function App() {
       <WeatherIcon className="weatherIconDay" name="owm" iconId="200" flip="horizontal" rotate="90" />
     </div>
                      </div>
-                     <div class="weather-temp weather-temp--today">15</div>
-                     <div class="weather-unit__text weather-unit__text--today">°C</div>
+                     <div class="weather-temp weather-temp--today">15°C</div>
+   
                      </div>
                      </div>
                      <div class="col-sm-6">
